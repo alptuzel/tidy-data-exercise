@@ -66,6 +66,17 @@ colnames(merged_labels)[2] <- "Activity.Name"
 colnames(merged_set_mean_std) <- sub("\\.{2,}", "\\.", colnames(merged_set_mean_std))
 
 
-mutate(merged_set_mean_std, "Subject Id"=)
+
+merged_set_mean_std <- mutate( merged_set_mean_std , 
+                                   Subject.ID= merged_subjects$V1)
+
+
+merged_set_mean_std <- mutate( merged_set_mean_std , 
+                               Activity= merged_labels$Activity.Name)
+
+merged_set_ms_group <- group_by(merged_set_mean_std, Activity, Subject.ID )
+
+
+my_tidy_data<- summarise_all(merged_set_ms_group, funs (mean) )
 
 
