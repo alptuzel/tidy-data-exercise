@@ -13,7 +13,7 @@ Files included:
 
 - README.md: This file! Overall descriptions.
 
-- my-tidy-data.csv: Resulting tidy data in csv.
+- my-tidy-data.txt: Resulting tidy data in txt.
 
 - run_analysis.R: R script to make the raw file tidy. You can directly run this file to have the final csv file. Beware of the directory that it runs since it reads text files from speficif directories.
 
