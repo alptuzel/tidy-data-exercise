@@ -52,3 +52,5 @@ Activity names are read in step 5 above.
 9- Make "group by"  in dplyr package to be able to use summarise function in the final data.
 
 10- Summarise data with mean function. In the end, the variables which has "mean" and "std" in it are grouped by Subject Id and Activiy Name and their average is calculated.
+
+11- Write the data set to a txt file.
