@@ -1,7 +1,7 @@
 
 Steps to reproduce the tidy data from the raw data.
 
-Prequisites: This project is run with RStudio using R version 3.41 in x86_64-pc-linux-gnu platform. R packages dplyr and plyr must be installed.
+Prerequisites: This project is run with RStudio using R version 3.41 in x86_64-pc-linux-gnu platform. R packages dplyr and plyr must be installed.
 
 1- Download the zip file and extract it to your project folder:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
