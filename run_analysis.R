@@ -91,8 +91,8 @@ merged_set_ms_group <- group_by(merged_set_mean_std, Activity, Subject.ID )
 my_tidy_data<- summarise_all(merged_set_ms_group, funs (mean) )
 
 
-## Write final data set to a CSV
+## Write final data set to a txt
 
-write.csv(my_tidy_data,"my_tidy_data.csv")
+write.csv(my_tidy_data,"my_tidy_data.txt")
 
 
